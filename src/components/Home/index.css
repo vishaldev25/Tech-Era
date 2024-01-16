@@ -1,0 +1,76 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+}
+.home {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.unordered-courses {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.home-heading {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: bold;
+  color: #000000;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faiure-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.failure-image {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 15px;
+}
+
+.failure-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  color: #1e293b;
+  text-align: center;
+}
+
+.failure-para {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 800;
+  color: #475569;
+  text-align: center;
+}
+.failure-button {
+  background-color: #4656a1;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .failure-heading {
+    font-size: 30px;
+  }
+  .failure-image {
+    width: 500px;
+    height: 500px;
+  }
+  .failure-para {
+    font-size: 26px;
+  }
+}
